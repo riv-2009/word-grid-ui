@@ -1,0 +1,18 @@
+div.board-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 1px;
+    grid-column-gap: 1px;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+div.board-tile {
+    /* background-color: aqua; */
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+}
